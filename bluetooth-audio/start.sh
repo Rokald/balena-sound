@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ -z "$BLUETOOTH_DEVICE_NAME" ]]; then
-  BLUETOOTH_DEVICE_NAME=$(printf "BlueberryPi 👿" $(hostname | cut -c -4))
+  BLUETOOTH_DEVICE_NAME=$(printf "BlueberryPi 🎧👿🔊" $(hostname | cut -c -4))
 fi
 
 # Set the discoverable timeout here
